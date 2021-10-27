@@ -1,0 +1,22 @@
+
+p{
+	color: red;
+	padding-left: 50px
+}
+
+.para1{
+	color: blue;
+}
+
+span{
+	color: white;
+	background-color: brown;
+	text-decoration: underline;
+}
+
+td, th{
+	border: 2px solid black;
+	text-align: left;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}

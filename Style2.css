@@ -1,0 +1,82 @@
+body {
+  background-color: lightblue;
+}
+
+h1{
+	font-family: 'Permanent Marker', cursive;
+	color: #be2902;
+	text-align: center;
+}
+
+.title1{
+	font-family: 'Permanent Marker', cursive;
+	color: #be2902;
+	position: relative; /*relative to the previous element*/
+left: 300px;
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+color: black;
+position: relative; /*relative to the previous element*/
+left: 50px;
+width: 600px;
+}
+
+p{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+width: 600px;
+position: relative; /*relative to the previous element*/
+left: 50px;
+top: 1px;
+color: black;
+}
+
+#wrapper{
+	width:90%;
+	height:600px;
+	margin: 0 auto;
+}
+
+.head{
+	height:50px;
+	width: auto;
+	background-color: black;
+}
+
+.sidebar{
+	width: 15%;
+	float: left;
+	height:1000px;
+	background-color: #be2902;
+}
+
+.main{
+	width: 85%;
+	float: right;
+	height: 550px;
+}
+
+#mypic{
+float: left;
+margin: 15px;
+}
+
+@media screen and (max-width: 700px) {
+.main {
+width: auto;
+float: none;
+
+}
+.sidebar {
+width: auto;
+float: none;
+height: 100px;
+}
+
+#mypic{
+width: 500px;
+height: 300px;
+}
+}
